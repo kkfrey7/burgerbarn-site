@@ -1,11 +1,11 @@
 
 body {
-    font-family: Georgia, serif;
-    background: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
-    background-color: #f8f0df;
-    color: #2e2e2e;
+    font-family: 'Just Another Hand', cursive;
+    background-color: #f8f1dc;
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
     margin: 0;
     padding: 0;
+    color: #2e2e2e;
 }
 header {
     background-color: #701d1d;
@@ -15,41 +15,47 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-.logo-container {
-    flex: 1;
-}
 .logo {
-    max-height: 60px;
+    height: 60px;
 }
 nav ul {
     list-style: none;
     display: flex;
-    gap: 1.2em;
-    margin: 0;
-    padding: 0;
+    gap: 1em;
 }
 nav a {
     color: gold;
     text-decoration: none;
     font-weight: bold;
 }
-.hero {
-    background-color: #123524;
-    color: white;
-    padding: 3em 2em;
-    text-align: center;
-}
-section {
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 2em;
-    border-bottom: 1px solid #ccc;
+    flex-direction: column;
 }
-h2 {
-    color: #701d1d;
-    margin-bottom: 0.5em;
+.menu {
+    background: rgba(255, 255, 255, 0.85);
+    border: 2px dashed #c2a878;
+    padding: 2em;
+    border-radius: 12px;
+    max-width: 700px;
 }
-footer {
-    background-color: #701d1d;
-    color: gold;
+.menu h1 {
     text-align: center;
-    padding: 1em;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.menu h2 {
+    margin-top: 1.5em;
+    font-size: 2em;
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.menu li {
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
 }
