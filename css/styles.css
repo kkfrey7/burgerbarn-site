@@ -1,0 +1,30 @@
+
+body {
+    font-family: Georgia, serif;
+    background-color: #f7f0e1;
+    color: #2e2e2e;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #701d1d;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+nav a {
+    color: gold;
+    text-decoration: none;
+}
+.hero {
+    background-color: #123524;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
